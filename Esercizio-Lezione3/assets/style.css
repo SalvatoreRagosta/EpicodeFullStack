@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
+
+
+
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+span{
+    color: rgba(16,119,119);
+  
+    
+}
+
+#main-h2{
+    color: rgba(145,189,189);
+    font-size: 1em;
+}
+
+.title{
+    color:rgba(51,51,51);
+    font-size: 1.3em;
+   
+
+    
+}
+
+#image-info{
+    color: lightslategray;
+}
+
+
+#featured{
+    color: rgba(181,70,15);
+}
+
+#ingredients{
+    font-weight: normal;
+    
+}
+
+#method{
+    font-weight: normal;
+    
+}
+
+.ul-list{
+    font-size: large;
+    font-family: sans-serif;
+   
+    
+
+}
+
+.ol-list{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+   
+}
+
+#last-p{
+    font-size: medium;
+}
+
+
+
+
+
+
+
+
+
+.yellow-hr {
+    border:none;
+
+      height: 50px;
+      margin-top: 0;
+      border-bottom: 1px solid yellow;
+      box-shadow: 0 20px 20px -20px lightyellow;
+    margin: -50px auto 10px; 
+  }
+
+  .blue-hr {
+    border:none;
+
+      height: 50px;
+      margin-top: 0;
+      border-bottom: 1px solid #add8e6;
+      box-shadow: 0 20px 20px -20px lightblue;
+    margin: -50px auto 10px; 
+  }
+
+
+
+
+
+
+
