@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url('sfondo.png');
+    
+}
+
+#first-block{
+    background: linear-gradient(173deg, rgba(144,36,205,1) 0%, rgba(255,255,255,1) 0%, rgba(35,70,113,1) 0%, rgba(32,69,113,1) 0%, rgba(11,104,156,1) 89%, rgba(29,55,163,1) 100%, rgba(216,117,106,1) 100%);
+    padding: 50px;
+    width: 300px;
+    margin: 50px;
+
+
+}
+
+#img-p{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+#logo{
+    width: 250px;
+    padding-left: 8%;    
+}
+
+#first-ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+   
+}
+
+.first-a{
+    text-decoration: none;
+}
+
+main{
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px;
+    padding: 50px;
+    margin: 50px;
+    
+
+}
+
+#title-id{
+    color: grey;
+    font-size: 1.1em;
+}
+
+.purple-span{
+    color: purple;
+    font-weight: bold;
+}
+
+.box{
+    background-color: lightgray;
+}
+
+.ol{
+    padding: 0px;
+}
+
+.box-blue{
+    background-color:rgba(61,109,205,255);
+    color: white;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.middle-colum{
+   text-align: center;
+}
+
+.right-colum{
+    text-align: center;
+
+}
+
+hr{
+    background-color: blue;
+}
+
+#video{
+    width: 300px;
+  
+
+}
+
+#newsletter{
+    background-color: lightgray;
+}
+
+.novita{
+    text-align: center;
+    font-weight: bold;
+}
+
+button{
+    background-color:rgba(61,109,205,255) ;
+    color: white;
+    font-weight: bold;
+   
+}
+
+.correlati{
+    background-color:lightgrey ;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    text-decoration: none;
+}
+
+.categoria{
+    font-size: 0.9em;
+    padding: 0px;
+    margin: 0px;
+}
+
+.data{
+    text-align: right;
+}
+
+#footer{
+    text-align: center;
+    background-color:rgba(0,85,102,255) ;
+    margin: 50px;
+    color: white;
+    font-size: 0.8em;  
+}
+
+#footer-a{
+    color: purple;
+    font-weight: bold;
+}
+
+#main-a{
+    color: lightblue;
+   
+    
+}

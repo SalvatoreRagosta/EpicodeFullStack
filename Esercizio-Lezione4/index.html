@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LayOut</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+
+
+  <body>
+    <header id="first-block">
+      <div>
+        <img id="logo" src="assets/img/logo.svg" alt="logo-epicode">
+        <p id="img-p">EPICODE - IL BLOG DEI DEVELOPERS</p>
+      </div>
+  
+      <div>
+          <ul id="first-ul">
+           <li> <a  class="first-a" href="#">HOME</a></li>
+            <li><a class="first-a" href="#">ARTICOLI</a></li>
+            <li><a class="first-a" href="#">LAVORA CON NOI</a></li>
+          </ul>
+      </div>
+    </header>
+
+    <main>
+      <div>
+        <h1>Come creare un template per i post</h1>
+        <p id="title-id">di Mario Rossi - pubblicato il 25-10-2020</p>
+      </div>
+      
+      <div>
+        <p>La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le <span class="purple-span">parti comuni</span> da applicare a tutte le pagine</p>
+      </div>
+
+      <div>
+        <p>Le varie aree saranno quindi suddivise in:</p>
+        <ul>
+          <li>Contenuti di intestazione del tag <code class="box">&lt;header&gt;</code></li>
+          <li>Contenuti centrali variabili del tag <code class="box">&lt;main&gt;</code>(corpo principale)</li>
+          <li>Contenuti di fine pagina comuni,da inserire nel tag <code class="box">&lt;footer&gt;</code></li>
+        </ul>
+      </div>
+
+      <div>
+        <p>Formattazione del codice</p>
+        <p>Il testo dell'articolo dovrà essere formattato per identificare tutte le parti <span class="purple-span">selezionare con i CSS.</span>Perciò i passi saranno:</p>
+        <ol class="ol">
+          <li>Proggettare su carta il markup finale,assegnando ad ogni specifico testo il tag appropriato</li>
+          <li>Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il basso</li>
+          <li>Applicare gli stili CSS</li>
+        </ol>
+      </div>
+
+      <article>
+        <div>
+          <p>L'applicazione di stili CSS è cresciuta negli anni fino a raggiungerela diffusione preossochè totale.</p>
+          <table>
+            <caption>Diffusione dei CSS</caption>
+            <thead> 
+            <tr>
+            <th class="box-blue">Anno</th>
+                               
+            <th class="box-blue">%di utilizzo</th>
+                               
+            <th class="box-blue">Supporto Browsers</th>
+            </tr>
+            </thead>
+            <tbody> 
+                <tr>
+                    <td>2000</td>    <td class="middle-colum">20%</td>    <td class="right-colum">17%</td>
+                    </tr>
+                    <tr>
+                    <td>2002</td>    <td class="middle-colum">35%</td>    <td class="right-colum">22%</td>
+                    </tr>
+                    <tr>
+                    <td>2004</td>    <td class="middle-colum">45%</td>    <td class="right-colum">42%</td>
+                    </tr>
+                    <tr>
+                    <td>2008</td>    <td class="middle-colum">80%</td>    <td class="right-colum">51%</td>
+                    </tr>
+                    <tr>
+                    <td>2012</td>    <td class="middle-colum">100%</td>   <td class="right-colum">76%</td>
+                    </tr>
+                    </tbody>
+            </table>
+        </div>
+
+        <hr>
+
+        <div>
+          <p>
+            Un test di validazione potrà essere fatto tramite il <a id="main-a" target="_blank" href="https://validator.w3.org/">tool online</a> dedicato allo scopo.Una volta ottimizzato il tutto, avremmo raggiunto il nostro obbiettivo ed essere stati dei veri <em>developers</em> come loro:
+            </p>
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/kjFC2GAw4Lo?si=HJX4yKRl47mzCRV_" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+        <div id="newsletter">
+          <p class="novita">NOVITA'</p>
+          <p>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter:</p>
+        <form>
+            <input type="email" name="email" id="email" placeholder="INSERISCI LA TUA EMAIL">
+            <button type="submit">Iscriviti!</button>
+       </form>
+      </div>
+
+      </article>
+
+      
+
+      
+        <div>
+          <h3>ARICOLI CORRELATI</h3>
+  
+
+          <ul class="correlati">
+              <li>
+                  <a href="#">Validare Il Codice HTML</a>
+                  <p class="categoria">Categoria: Develop</p>
+                  <p class="data">Data: 18-9-2020</p>
+              </li>
+          </ul> 
+         
+              
+      
+       <ul class="correlati">
+            <li>
+                <a href="#">Correggere La Sintassi</a>
+                  <p class="categoria">Categoria: Develop</p>
+                  <p class="data">Data: 16-9-2020</p>
+            </li>
+      </ul>
+          
+  
+      <ul class="correlati">
+          <li>
+              <a href="#">Meno KB Nella Pagina</a>
+              <p class="categoria">Categoria: Ottimizzazione</p>
+              <p class="data">Data: 30-9-2020</p>
+          </li>
+      </ul>
+          
+
+      </div>
+    </main>
+    <footer>
+      <div>
+        <address id="footer">
+          <p>Blog Epicode &copy;2023</p>
+          <p>Testata online di Mario Rossi registrata con prot. n.213/2018 - Via Luigi Einaudi 2 - Milano. P.IVA 00112233 <a id="footer-a" href="info@epicode.school">info@epicode.school</a></p>
+        </address>
+      </div>
+
+
+    </footer>
+
+
+  </body>
+</html>
